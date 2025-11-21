@@ -134,7 +134,7 @@ const NRRCalculator = ({ teams }) => {
         </div>
 
         <div className="form-group">
-          <label htmlFor="matchOvers">Match Overs</label>
+          <label htmlFor="matchOvers">Match Overs *</label>
           <input
             type="number"
             id="matchOvers"
@@ -148,7 +148,7 @@ const NRRCalculator = ({ teams }) => {
         </div>
 
         <div className="form-group">
-          <label htmlFor="desiredPosition">Desired Position</label>
+          <label htmlFor="desiredPosition">Desired Position *</label>
           <input
             type="number"
             id="desiredPosition"
@@ -162,7 +162,7 @@ const NRRCalculator = ({ teams }) => {
         </div>
 
         <div className="form-group">
-          <label htmlFor="tossResult">Toss Result</label>
+          <label htmlFor="tossResult">Toss Result *</label>
           <select
             id="tossResult"
             name="tossResult"
